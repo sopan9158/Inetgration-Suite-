@@ -8,7 +8,7 @@ pipeline {
     DeploymentCheckRetryCounter = 20 //multiply by 3 to get the maximum deployment time
 	  CPIHost = "${env.CPI_HOST}"
 	  CPIOAuthHost = "${env.CPI_OAUTH_HOST}"
-	  CPIOAuthCredentials = credentials('CPI_OAUTH_CRED')
+	  CPIOAuthCredentials = 'sb-8356417b-8fb0-4d97-bf7f-7fb752e1182b!b65637|it!b44075:b5403ebf-956b-41c3-9715-56ea621f831e$27yMgja2INkUDr2LTVgq-JKbCXXE1qP2Qy9qhjmxRnE='	
   }
 
   stages {
